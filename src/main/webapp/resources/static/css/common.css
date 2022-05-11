@@ -1,0 +1,110 @@
+#common_head {
+    background-color: black;
+    max-width: 100%;
+}
+#logo {
+    width: 50%;
+}
+#button-addon1 {
+    background-color: black;
+    border-right: 0;
+    border-color: white;
+}
+#search_box {
+    width: 50%;
+    float: right;
+}
+#search_content {
+    border-color: white;
+}
+#common_footer {
+    margin-top: 5%;
+    background-color: black;
+    height: 100px;
+    text-align: center;
+}
+#common_footer div {
+    color: white;
+    font-size: 10px;
+    padding-top: 40px;
+}
+.graph {
+    border: 0;
+}
+/* 스위치 버튼 스타일 */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 48px;
+    height: 25px;
+    vertical-align: middle;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+    display: none;
+}
+
+/* The slider */
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 20px;
+    width: 20px;
+    left: 0.5px;
+    bottom: 2.9063px;
+    background-color: white;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+}
+
+input:checked + .slider {
+    background-color: black;
+}
+
+input:focus + .slider {
+    box-shadow: 0 0 1px black;
+}
+
+input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+.switch_state {
+    margin: 0px;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.chart_title {
+    margin-bottom: -15px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#etc_title {
+    font-weight: bold;
+}
