@@ -95,8 +95,8 @@
                                 <br />
                                 <table class="table table-hover">
                                     <tbody>
-                                    <tr onclick="location.href='/Sido_select'">
-                                        <td>서울특별시</td>
+                                    <tr>
+                                        <td class="checked">서울특별시</td>
                                         <td><i class="bi bi-chevron-compact-right"></i></td>
                                     </tr>
                                     <tr>
@@ -197,7 +197,7 @@
                             </div>
                         </div>
                         <div class="row">
-                            <h5 class="chart_title">전국 아파트 매매 가격 지수</h5>
+                            <h5 class="chart_title">서울 아파트 매매 가격 지수</h5>
                             <canvas id="myChart" width="400" height="125"></canvas>
                         </div>
                     </div>
@@ -206,7 +206,7 @@
             <div class="row">
                 <div class="card graph">
                     <div class="card-body">
-                        <h5 class="chart_title">전국 아파트 매매 가격 변동률</h5>
+                        <h5 class="chart_title">서울 아파트 매매 가격 변동률</h5>
                         <canvas id="myChart2" width="400" height="125"></canvas>
                     </div>
                 </div>
@@ -217,12 +217,12 @@
                     <div class="row">
                         <div class="col-sm-3">
                   <span
-                  >매매 : <span>26054<i class="bi bi-arrow-down"></i></span
+                  >매매 : <span>927<i class="bi bi-arrow-down"></i></span
                   ></span>
                         </div>
                         <div class="col-sm-3">
                   <span
-                  >전/월세 : <span>54714<i class="bi bi-arrow-down"></i></span
+                  >전/월세 : <span>11677<i class="bi bi-arrow-down"></i></span
                   ></span>
                         </div>
                         <div class="col-sm-3">
@@ -259,8 +259,8 @@
             labels: ["2015년", "2016년", "2017년", "2018년", "2019년", "2020년","2021년"],
             datasets: [
                 {
-                    label: "# of Votes",
-                    data: [84.26,86.28,87.2,87.88,86.44,89.55,100.52],
+                    label: "매매가격 지수",
+                    data: [76.923,80.406,83.702,90.334,91.852,95.188,100.634],
                     backgroundColor: [
                         "rgb(118, 118, 118)",
                     ],
@@ -298,8 +298,8 @@
             labels: ["2015년", "2016년", "2017년", "2018년", "2019년", "2020년","2021년"],
             datasets: [
                 {
-                    label: "# of Votes",
-                    data: [0.4,0.07,0.09,0.01,-0.12,0.61,1.11],
+                    label: "매매 가격 변동률",
+                    data: [0.544,0.267,0.385,0.647,0.093,0.248,0.647],
                     backgroundColor: [
                         "rgb(118, 118, 118)",
 

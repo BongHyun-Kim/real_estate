@@ -10,4 +10,9 @@ public class defaultController {
     public String index(){
         return "index";
     }
+
+    @GetMapping("/Sido_select")
+    public String Sido(){
+        return "Selected_Sido";
+    }
 }
